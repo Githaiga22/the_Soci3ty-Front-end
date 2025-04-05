@@ -93,6 +93,17 @@ function App() {
             </div>
           </div>
         </div>
+
+          {/* Call to Action Button */}
+        <div >
+          <a
+            href="https://www.society.xyz/"
+            className="mt-16 inline-block bg-[#95FFDF] text-#323232 px-[26px] py-[13px] rounded-[80px]  text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
+          >
+            JOIN THE NETWORK
+          </a>
+        </div>
+
       </main>
     </div>
   );
