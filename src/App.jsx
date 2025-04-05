@@ -103,7 +103,10 @@ function App() {
             JOIN THE NETWORK
           </a>
         </div>
-
+        {/* {Logo - icon} */}
+        <div className="mt-16 inline-block w-[208px] h-[183px]">
+          <img src="/soci3ty3Logo.png" alt="society Logo" className="w-25 h-25 mr-4" />
+        </div>
       </main>
     </div>
   );
