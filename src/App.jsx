@@ -98,22 +98,24 @@ function App() {
         <div >
           <a
             href="https://www.society.xyz/"
-            className="mt-16 inline-block bg-[#95FFDF] text-#323232 px-[26px] py-[13px] rounded-[80px]  text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
+            className="mt-16 inline-block bg-[#95FFDF] text-#323232 px-[50px] py-[20px] rounded-[80px]  text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
           >
             JOIN THE NETWORK
           </a>
         </div>
+
         {/* {Logo - icon} */}
         <div className="mt-20 inline-block w-[208px] h-[183px]">
           <img src="/soci3ty3Logo.png" alt="society Logo" className="w-full h-full object-contain" />
         </div>
+
 
         <div className="mt-32 text-white">
           <h2 className="text-4xl font-bold mb-8">
             A platform built for visionaries
           </h2>
 
-        </div>
+    </div>
       </main>
       <div class="gradient-bg min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
         <div class="text-center max-w-2xl mx-auto">
