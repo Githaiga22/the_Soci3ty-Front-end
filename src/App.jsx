@@ -95,28 +95,69 @@ function App() {
         </div>
 
           {/* Call to Action Button */}
+          <div>
+
+        
         <div >
           <a
             href="https://www.society.xyz/"
-            className="mt-16 inline-block bg-[#95FFDF] text-#323232 px-[26px] py-[13px] rounded-[80px]  text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
+            className="mt-16 inline-block bg-[#95FFDF] text-#323232 px-[50px] py-[20px] rounded-[80px]  text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
           >
             JOIN THE NETWORK
           </a>
         </div>
+
         {/* {Logo - icon} */}
         <div className="mt-20 inline-block w-[208px] h-[183px]">
           <img src="/soci3ty3Logo.png" alt="society Logo" className="w-full h-full object-contain" />
         </div>
 
+
         <div className="mt-32 text-white">
         <h2 className="text-4xl font-bold mb-8">
           A platform built for visionaries
         </h2>
-
         </div>
+
+        {/* tables */}
+
+        <div className="mt-16 flex items-center justify-center p-4">
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+            {[
+              "A global pool of impact driven changemakers and talent to collaborate with",
+              "Online and IRL events to network, grow and find collaborators",
+              "A collective treasury governed by members to support impact driven initiatives",
+              "Ability to organize your community in a clan to empower it and offer an opportunity for financial sustainability"
+            ].map((text, index) => (
+            <div
+              key={index}
+              className=" p-6 text-white text-[20px] font-bold leading-[100%] text-center rounded-xl border-4 border-[#95FFDF] shadow-md flex items-center justify-center"
+            >
+             {text}
+            </div>
+            ))}
+          </div>
+          
+        </div>
+        {/* Apply Button */}
+        <div className='mt-16 flex items-center justify-center'>
+          <a
+            href="https://www.society.xyz/"
+            className="mt-13 inline-block bg-[#95FFDF] text-#323232 px-[70px] py-[20px] rounded-[80px]  text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
+          >
+            APPLY HERE
+          </a>
+        </div>
+
+      </div>
 
         {/* Partners */}
         <div>
+          <div className="mt-32 text-white">
+            <h2 className="text-4xl font-bold mb-8">
+              They joined us
+            </h2>
+          </div>
           <div className="mt-20 flex flex-wrap justify-center  gap-6 px-4">
             <div className="flex flex-col items-center">
             <img
@@ -175,7 +216,7 @@ function App() {
 
           <div className="mt-20 flex flex-wrap justify-center  gap-6 px-4">
             
-          <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center">
               <img
                 src="/emilia.png"
                 alt="Frame 1"
@@ -204,14 +245,13 @@ function App() {
                Nico Gallardo
               </p>
               <div className='flex justify-center items-center mt-8 w-[180px] h-[49px]'>
-              <img
-                src="/lottopgf.png" 
-                alt="LottoPGFDAO icon logo"
-                className="mt-4 w-[200px] h-[60px]"
-              />
+                <img
+                  src="/lottopgf.png" 
+                  alt="LottoPGFDAO icon logo"
+                  className="mt-4 w-[200px] h-[60px]"
+                />
+              </div>
             </div>
-            </div>
-
           </div>
 
 
