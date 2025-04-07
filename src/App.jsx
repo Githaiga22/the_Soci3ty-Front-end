@@ -104,8 +104,15 @@ function App() {
           </a>
         </div>
         {/* {Logo - icon} */}
-        <div className="mt-16 inline-block w-[208px] h-[183px]">
-          <img src="/soci3ty3Logo.png" alt="society Logo" className="w-25 h-25 mr-4" />
+        <div className="mt-20 inline-block w-[208px] h-[183px]">
+          <img src="/soci3ty3Logo.png" alt="society Logo" className="w-full h-full object-contain" />
+        </div>
+
+        <div className="mt-32 text-white">
+        <h2 className="text-4xl font-bold mb-8">
+          A platform built for visionaries
+          </h2>
+
         </div>
       </main>
     </div>
