@@ -144,11 +144,11 @@ function App() {
               <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
                 Koko
               </p>
-              <div className='flex justify-center items-center mt-2 w-[289px] h-[60px]'>
+              <div className='flex justify-center items-center mt-2 w-[275px] h-[60px]'>
               <img
                 src="/safaridao1.png" 
                 alt="SafariDao icon logo"
-                className="mt-4 w-[289px] h-[77px] object-contain"
+                className="mt-4 w-[275px] h-[70px] object-contain"
               />
             </div>
 
