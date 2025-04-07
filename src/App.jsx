@@ -177,25 +177,6 @@ function App() {
               </div>
             </div>
             <div className="flex flex-col items-center">
-                <img
-                  src="/koko.png"
-                  alt="Frame 2"
-                  className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
-                />
-                <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
-                  Koko
-                </p>
-                <div className='flex justify-center items-center mt-2 w-[275px] h-[60px]'>
-                <img
-                  src="/safaridao1.png" 
-                  alt="SafariDao icon logo"
-                  className="mt-4 w-[275px] h-[70px] object-contain"
-                />
-              </div>
-
-            </div>
-
-            <div className="flex flex-col items-center">
               <img
                 src="/etienne.png"
                 alt="Frame 3"
