@@ -111,9 +111,28 @@ function App() {
         <div className="mt-32 text-white">
         <h2 className="text-4xl font-bold mb-8">
           A platform built for visionaries
-          </h2>
+        </h2>
 
         </div>
+
+        {/* Partners */}
+        <div className="mt-20 flex justify-center flex gap-[24px]">
+          <img
+            src="/koko.png"
+            alt="Frame 1"
+            className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
+          />
+          <img
+            src="/emmanuel.png"
+            alt="Frame 2"
+            className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
+          />
+          <img
+            src="/etienne.png"
+            alt="Frame 3"
+            className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
+          />
+    </div>
       </main>
     </div>
   );
