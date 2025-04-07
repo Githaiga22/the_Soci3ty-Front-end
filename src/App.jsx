@@ -153,45 +153,45 @@ function App() {
 
         {/* Partners */}
         <div>
-          <div className="mt-32 text-white">
-            <h2 className="text-4xl font-bold mb-8">
-              They joined us
-            </h2>
-          </div>
-          <div className="mt-20 flex flex-wrap justify-center  gap-6 px-4">
-            <div className="flex flex-col items-center">
-            <img
-              src="/emmanuel.png"
-              alt="Frame 1"
-              className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
-            />
-             <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
-             Emmanuel Aldeguer
-            </p>
-            <div className='flex justify-center items-center mt-4 w-[191px] h-[54px]'>
-              <img
-                src="/axone.svg"
-                alt="Axone icon logo"
-                className="mt-4 w-[191px] h-[54px]"
-              />
+            <div className="mt-32 text-white">
+              <h2 className="text-4xl font-bold mb-8">
+                They joined us
+              </h2>
             </div>
-          </div>
-          <div className="flex flex-col items-center">
+            <div className="mt-20 flex flex-wrap justify-center  gap-6 px-4">
+              <div className="flex flex-col items-center">
               <img
-                src="/koko.png"
-                alt="Frame 2"
+                src="/emmanuel.png"
+                alt="Frame 1"
                 className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
               />
-              <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
-                Koko
+               <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
+               Emmanuel Aldeguer
               </p>
-              <div className='flex justify-center items-center mt-2 w-[275px] h-[60px]'>
-              <img
-                src="/safaridao1.png" 
-                alt="SafariDao icon logo"
-                className="mt-4 w-[275px] h-[70px] object-contain"
-              />
+              <div className='flex justify-center items-center mt-4 w-[191px] h-[54px]'>
+                <img
+                  src="/axone.svg"
+                  alt="Axone icon logo"
+                  className="mt-4 w-[191px] h-[54px]"
+                />
+              </div>
             </div>
+            <div className="flex flex-col items-center">
+                <img
+                  src="/koko.png"
+                  alt="Frame 2"
+                  className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
+                />
+                <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
+                  Koko
+                </p>
+                <div className='flex justify-center items-center mt-2 w-[275px] h-[60px]'>
+                <img
+                  src="/safaridao1.png" 
+                  alt="SafariDao icon logo"
+                  className="mt-4 w-[275px] h-[70px] object-contain"
+                />
+              </div>
 
             </div>
 
@@ -205,12 +205,12 @@ function App() {
                 Etienne de Sainte Marie
               </p>
               <div className='flex justify-center items-center mt-4 w-[241px] h-[24px]'>
-              <img
-                src="/republik.png" 
-                alt="SafariDao icon logo"
-                className="mt-4 w-[241px] h-[24px]"
-              />
-            </div>
+                <img
+                  src="/republik.png" 
+                  alt="SafariDao icon logo"
+                  className="mt-4 w-[241px] h-[24px]"
+                />
+              </div>
             </div>            
           </div>
 
@@ -226,15 +226,14 @@ function App() {
                Emilie-Alice Fabrizi
               </p>
               <div className='flex justify-center items-center mt-4 w-[175px] h-[93px]'>
-              <img
-                src="/thegoodtoken.png" 
-                alt="The Good Token Society icon logo"
-                className="mt-4 w-[175px] h-[93px]"
-              />
+                <img
+                  src="/thegoodtoken.png" 
+                  alt="The Good Token Society icon logo"
+                  className="mt-4 w-[175px] h-[93px]"
+                />
+              </div>
             </div>
 
-
-            </div>
             <div className="flex flex-col items-center">
               <img
                 src="/nico.png"
@@ -252,10 +251,53 @@ function App() {
                 />
               </div>
             </div>
+
+          </div>
+        </div>
+        {/* End of partners section */}
+
+        {/*  */}
+        <div class="gradient-bg min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
+        <div class="text-center max-w-2xl mx-auto">
+          <h1 class="title mb-32">What you can do as a founder</h1>
+
+          <div class="coin-container">
+            <img src="/coin.png" alt="Coin" class="coin w-36 h-36 mx-auto" />
           </div>
 
+          <h2 class="text-3xl font-bold mb-6 text-white tracking-tight flex items-center">
+            You own
+            <span class="ml-2 inline-block relative">
+              <img src="/societylogo.png" alt="Society Logo" class="w-25 h-25 mr-2" />
+              <span class="absolute -top-[2px] left-0 w-full border-t-2 border-white"></span>
+            </span>
+          </h2>
 
-    </div>
+          <p class="text-white/80 text-sm max-w-md mx-auto mb-20 leading-relaxed font-Neue Montreal">
+            Unlike traditional companies, The Soci3ty will only emit shares once that can be acquired during an initial sale or by participating in The Soci3ty economic activity.
+          </p>
+
+          <div class="space-y-12 mb-20">
+            <div>
+              <h3 class="section-title text-[#8C9EFF] font-bold text-lg">Ownership</h3>
+              <p class="section-text font-bold text-lg text-[#FFFFFF]">You own The Soci3ty and the assets</p>
+            </div>
+
+            <div>
+              <h3 class="section-title text-[#8C9EFF] font-bold text-lg">Governance</h3>
+              <p class="section-text font-bold text-lg text-[#FFFFFF]">Every month, you gain more governance power as the<br />treasury grows.</p>
+            </div>
+
+            <div>
+              <h3 class="section-title text-[#8C9EFF] font-bold text-lg">Utility</h3>
+              <p class="section-text font-bold text-lg text-[#FFFFFF]">You can also use Arrow to perform important actions<br />(sponsor citizens, create a clan, etc).</p>
+            </div>
+          </div>
+          </div>
+      </div>
+  
+
+
       </main>
     </div>
   );
