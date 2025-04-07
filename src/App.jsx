@@ -116,22 +116,105 @@ function App() {
         </div>
 
         {/* Partners */}
-        <div className="mt-20 flex justify-center flex gap-[24px]">
-          <img
-            src="/koko.png"
-            alt="Frame 1"
-            className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
-          />
-          <img
-            src="/emmanuel.png"
-            alt="Frame 2"
-            className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
-          />
-          <img
-            src="/etienne.png"
-            alt="Frame 3"
-            className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
-          />
+        <div>
+          <div className="mt-20 flex flex-wrap justify-center  gap-6 px-4">
+            <div className="flex flex-col items-center">
+            <img
+              src="/emmanuel.png"
+              alt="Frame 1"
+              className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
+            />
+             <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
+             Emmanuel Aldeguer
+            </p>
+            <div className='flex justify-center items-center mt-4 w-[191px] h-[54px]'>
+              <img
+                src="/axone.svg"
+                alt="Axone icon logo"
+                className="mt-4 w-[191px] h-[54px]"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col items-center">
+              <img
+                src="/koko.png"
+                alt="Frame 2"
+                className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
+              />
+              <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
+                Koko
+              </p>
+              <div className='flex justify-center items-center mt-2 w-[289px] h-[60px]'>
+              <img
+                src="/safaridao1.png" 
+                alt="SafariDao icon logo"
+                className="mt-4 w-[289px] h-[77px] object-contain"
+              />
+            </div>
+
+            </div>
+
+            <div className="flex flex-col items-center">
+              <img
+                src="/etienne.png"
+                alt="Frame 3"
+                className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
+              />
+                <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
+                Etienne de Sainte Marie
+              </p>
+              <div className='flex justify-center items-center mt-4 w-[241px] h-[24px]'>
+              <img
+                src="/republik.png" 
+                alt="SafariDao icon logo"
+                className="mt-4 w-[241px] h-[24px]"
+              />
+            </div>
+            </div>            
+          </div>
+
+          <div className="mt-20 flex flex-wrap justify-center  gap-6 px-4">
+            
+          <div className="flex flex-col items-center">
+              <img
+                src="/emilia.png"
+                alt="Frame 1"
+                className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
+              />
+               <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
+               Emilie-Alice Fabrizi
+              </p>
+              <div className='flex justify-center items-center mt-4 w-[175px] h-[93px]'>
+              <img
+                src="/thegoodtoken.png" 
+                alt="The Good Token Society icon logo"
+                className="mt-4 w-[175px] h-[93px]"
+              />
+            </div>
+
+
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/nico.png"
+                alt="Frame 1"
+                className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
+              />
+               <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
+               Nico Gallardo
+              </p>
+              <div className='flex justify-center items-center mt-8 w-[180px] h-[49px]'>
+              <img
+                src="/lottopgf.png" 
+                alt="LottoPGFDAO icon logo"
+                className="mt-4 w-[200px] h-[60px]"
+              />
+            </div>
+            </div>
+
+          </div>
+
+
     </div>
       </main>
     </div>
