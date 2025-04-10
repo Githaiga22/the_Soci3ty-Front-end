@@ -5,7 +5,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-b from-[#1a2634] to-[#3b4b8f]">
       {/* Header */}
       <header className="p-6">
-      <img src="/societylogo.png" alt="society Logo" className="w-25 h-25 mr-4" />
+        <img src="/societylogo.png" alt="society Logo" className="w-25 h-25 mr-4" />
         {/* <div className="text-white font-bold text-2xl">
           the <span className="text-secondary">soci3ty</span>
         </div> */}
@@ -17,11 +17,11 @@ function App() {
           Let's make your vision
           <div className="text-[#8C9EFF] mt-2">a reality</div>
         </h1>
-        
+
         <div className="max-w-2xl mx-auto mt-8 text-gray-300">
           <p className="text-xl mb-2">You are a visionary entrepreneur and</p>
           <p className="text-xl font-semibold mb-6">you want to have impact.</p>
-          
+
           <p className="text-lg mb-4">
             The Soci3ty is the technological and community layer to make it happen.
           </p>
@@ -30,19 +30,19 @@ function App() {
           </p>
         </div>
 
-{/* Video Section */}
-<div className="max-w-4xl mx-auto mt-16 relative">
-  <div className="aspect-video bg-black/30 rounded-lg overflow-hidden">
-    <iframe
-      className="w-full h-full"
-      src="https://www.youtube.com/embed/ndFxwwpFGFM"
-      title="YouTube video player"
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  </div>
-</div>
+        {/* Video Section */}
+        <div className="max-w-4xl mx-auto mt-16 relative">
+          <div className="aspect-video bg-black/30 rounded-lg overflow-hidden">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/ndFxwwpFGFM"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
 
 
         {/* Platform Section */}
@@ -51,7 +51,7 @@ function App() {
             A platform that supports
             <div className="mt-2">visionaries</div>
           </h2>
-          
+
           <p className="max-w-2xl mx-auto text-lg text-gray-300">
             The Soci3ty is made up of pioneers who are at the forefront of change and who want to
             <span className="font-semibold"> come together and support each other.</span>
@@ -61,7 +61,7 @@ function App() {
         {/* Features Grid */}
         <div className="mt-16 bg-[#1E293B] rounded-xl p-8">
           <h3 className="text-2xl font-semibold text-[#4ADE80] mb-8">Other platforms</h3>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex items-center space-x-4 text-white">
               <Layout className="w-6 h-6" />
@@ -94,79 +94,79 @@ function App() {
           </div>
         </div>
 
-          {/* Call to Action Button */}
-          <div>
-
-        
-        <div >
-          <a
-            href="https://www.society.xyz/"
-            className="mt-16 inline-block bg-[#95FFDF] text-#323232 px-[50px] py-[20px] rounded-[80px]  text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
-          >
-            JOIN THE NETWORK
-          </a>
-        </div>
-
-        {/* {Logo - icon} */}
-        <div className="mt-20 inline-block w-[208px] h-[183px]">
-          <img src="/soci3ty3Logo.png" alt="society Logo" className="w-full h-full object-contain" />
-        </div>
+        {/* Call to Action Button */}
+        <div>
 
 
-        <div className="mt-32 text-white">
-        <h2 className="text-4xl font-bold mb-8">
-          A platform built for visionaries
-        </h2>
-        </div>
-
-        {/* tables */}
-
-        <div className="mt-16 flex items-center justify-center p-4">
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-            {[
-              "A global pool of impact driven changemakers and talent to collaborate with",
-              "Online and IRL events to network, grow and find collaborators",
-              "A collective treasury governed by members to support impact driven initiatives",
-              "Ability to organize your community in a clan to empower it and offer an opportunity for financial sustainability"
-            ].map((text, index) => (
-            <div
-              key={index}
-              className=" p-6 text-white text-[20px] font-bold leading-[100%] text-center rounded-xl border-4 border-[#95FFDF] shadow-md flex items-center justify-center"
+          <div >
+            <a
+              href="https://www.society.xyz/"
+              className="mt-16 inline-block bg-[#95FFDF] text-#323232 px-[50px] py-[20px] rounded-[80px]  text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
             >
-             {text}
-            </div>
-            ))}
+              JOIN THE NETWORK
+            </a>
           </div>
-          
-        </div>
-        {/* Apply Button */}
-        <div className='mt-16 flex items-center justify-center'>
-          <a
-            href="https://www.society.xyz/"
-            className="mt-13 inline-block bg-[#95FFDF] text-#323232 px-[70px] py-[20px] rounded-[80px]  text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
-          >
-            APPLY HERE
-          </a>
-        </div>
 
-      </div>
+          {/* {Logo - icon} */}
+          <div className="mt-20 inline-block w-[208px] h-[183px]">
+            <img src="/soci3ty3Logo.png" alt="society Logo" className="w-full h-full object-contain" />
+          </div>
+
+
+          <div className="mt-32 text-white">
+            <h2 className="text-4xl font-bold mb-8">
+              A platform built for visionaries
+            </h2>
+          </div>
+
+          {/* tables */}
+
+          <div className="mt-16 flex items-center justify-center p-4">
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+              {[
+                "A global pool of impact driven changemakers and talent to collaborate with",
+                "Online and IRL events to network, grow and find collaborators",
+                "A collective treasury governed by members to support impact driven initiatives",
+                "Ability to organize your community in a clan to empower it and offer an opportunity for financial sustainability"
+              ].map((text, index) => (
+                <div
+                  key={index}
+                  className=" p-6 text-white text-[20px] font-bold leading-[100%] text-center rounded-xl border-4 border-[#95FFDF] shadow-md flex items-center justify-center"
+                >
+                  {text}
+                </div>
+              ))}
+            </div>
+
+          </div>
+          {/* Apply Button */}
+          <div className='mt-16 flex items-center justify-center'>
+            <a
+              href="https://www.society.xyz/"
+              className="mt-13 inline-block bg-[#95FFDF] text-#323232 px-[70px] py-[20px] rounded-[80px]  text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
+            >
+              APPLY HERE
+            </a>
+          </div>
+
+        </div>
 
         {/* Partners */}
         <div>
-            <div className="mt-32 text-white">
-              <h2 className="text-4xl font-bold mb-8">
-                They joined us
-              </h2>
-            </div>
-            <div className="mt-20 flex flex-wrap justify-center  gap-6 px-4">
-              <div className="flex flex-col items-center">
+          <div className="mt-32 text-white">
+            <h2 className="text-4xl font-bold mb-8">
+              They joined us
+            </h2>
+          </div>
+          <div className="mt-20 flex flex-wrap justify-center  gap-6 px-4">
+            <div className="flex flex-col items-center">
               <img
                 src="/emmanuel.png"
                 alt="Frame 1"
                 className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
               />
-               <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
-               Emmanuel Aldeguer
+              <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
+                Emmanuel Aldeguer
               </p>
               <div className='flex justify-center items-center mt-4 w-[191px] h-[54px]'>
                 <img
@@ -182,33 +182,33 @@ function App() {
                 alt="Frame 3"
                 className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
               />
-                <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
+              <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
                 Etienne de Sainte Marie
               </p>
               <div className='flex justify-center items-center mt-4 w-[241px] h-[24px]'>
                 <img
-                  src="/republik.png" 
+                  src="/republik.png"
                   alt="SafariDao icon logo"
                   className="mt-4 w-[241px] h-[24px]"
                 />
               </div>
-            </div>            
+            </div>
           </div>
 
           <div className="mt-20 flex flex-wrap justify-center  gap-6 px-4">
-            
+
             <div className="flex flex-col items-center">
               <img
                 src="/emilia.png"
                 alt="Frame 1"
                 className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
               />
-               <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
-               Emilie-Alice Fabrizi
+              <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
+                Emilie-Alice Fabrizi
               </p>
               <div className='flex justify-center items-center mt-4 w-[175px] h-[93px]'>
                 <img
-                  src="/thegoodtoken.png" 
+                  src="/thegoodtoken.png"
                   alt="The Good Token Society icon logo"
                   className="mt-4 w-[175px] h-[93px]"
                 />
@@ -221,12 +221,12 @@ function App() {
                 alt="Frame 1"
                 className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
               />
-               <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
-               Nico Gallardo
+              <p className="mt-2 text-[32px]  text-white leading-[100%] text-center font-normal custom-white">
+                Nico Gallardo
               </p>
               <div className='flex justify-center items-center mt-8 w-[180px] h-[49px]'>
                 <img
-                  src="/lottopgf.png" 
+                  src="/lottopgf.png"
                   alt="LottoPGFDAO icon logo"
                   className="mt-4 w-[200px] h-[60px]"
                 />
@@ -237,49 +237,55 @@ function App() {
         </div>
         {/* End of partners section */}
 
-        {/*  */}
-        <div class="gradient-bg min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
-        <div class="text-center max-w-2xl mx-auto">
-          <h1 class="title mb-32">What you can do as a founder</h1>
-
-          <div class="coin-container">
-            <img src="/coin.png" alt="Coin" class="coin w-36 h-36 mx-auto" />
-          </div>
-
-          <h2 class="text-3xl font-bold mb-6 text-white tracking-tight flex items-center">
-            You own
-            <span class="ml-2 inline-block relative">
-              <img src="/societylogo.png" alt="Society Logo" class="w-25 h-25 mr-2" />
-              <span class="absolute -top-[2px] left-0 w-full border-t-2 border-white"></span>
-            </span>
-          </h2>
-
-          <p class="text-white/80 text-sm max-w-md mx-auto mb-20 leading-relaxed font-Neue Montreal">
-            Unlike traditional companies, The Soci3ty will only emit shares once that can be acquired during an initial sale or by participating in The Soci3ty economic activity.
-          </p>
-
-          <div class="space-y-12 mb-20">
-            <div>
-              <h3 class="section-title text-[#8C9EFF] font-bold text-lg">Ownership</h3>
-              <p class="section-text font-bold text-lg text-[#FFFFFF]">You own The Soci3ty and the assets</p>
-            </div>
-
-            <div>
-              <h3 class="section-title text-[#8C9EFF] font-bold text-lg">Governance</h3>
-              <p class="section-text font-bold text-lg text-[#FFFFFF]">Every month, you gain more governance power as the<br />treasury grows.</p>
-            </div>
-
-            <div>
-              <h3 class="section-title text-[#8C9EFF] font-bold text-lg">Utility</h3>
-              <p class="section-text font-bold text-lg text-[#FFFFFF]">You can also use Arrow to perform important actions<br />(sponsor citizens, create a clan, etc).</p>
-            </div>
-          </div>
-          </div>
-      </div>
-  
-
-
       </main>
+
+      <div class="gradient-bg min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
+          <div class="text-center max-w-2xl mx-auto">
+        
+
+
+            <div class="coin-container">
+              <img src="/coin.png" alt="Coin" class="coin w-36 h-36 mx-auto" />
+            </div>
+
+            <h2 class="text-3xl font-bold mb-6 text-white tracking-tight flex items-center">
+              You own
+              <span class="ml-2 inline-block relative">
+                <img src="/societylogo.png" alt="Society Logo" class="w-25 h-25 mr-2" />
+                <span class="absolute -top-[2px] left-0 w-full border-t-2 border-white"></span>
+              </span>
+            </h2>
+
+            <p class="text-white/80 text-sm max-w-md mx-auto mb-20 leading-relaxed font-Neue Montreal">
+              Unlike traditional companies, The Soci3ty will only emit shares once that can be acquired during an initial sale or by participating in The Soci3ty economic activity.
+            </p>
+
+            <div class="space-y-12 mb-20">
+              <div>
+                <h3 class="section-title text-[#8C9EFF] font-bold text-lg">Ownership</h3>
+                <p class="section-text font-bold text-lg text-[#FFFFFF]">You own The Soci3ty and the assets</p>
+              </div>
+
+              <div>
+                <h3 class="section-title text-[#8C9EFF] font-bold text-lg">Governance</h3>
+                <p class="section-text font-bold text-lg text-[#FFFFFF]">Every month, you gain more governance power as the<br />treasury grows.</p>
+              </div>
+
+              <div>
+                <h3 class="section-title text-[#8C9EFF] font-bold text-lg">Utility</h3>
+                <p class="section-text font-bold text-lg text-[#FFFFFF]">You can also use Arrow to perform important actions<br />(sponsor citizens, create a clan, etc).</p>
+              </div>
+            </div>
+            <div >
+              <a
+                href="https://www.society.xyz/"
+                className="mt-16 inline-block bg-[#95FFDF] text-#323232 px-[50px] py-[20px] rounded-[80px]  text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
+              >
+                JOIN THE COMMUNITY
+              </a>
+            </div>
+          </div>
+        </div>
     </div>
   );
 }
