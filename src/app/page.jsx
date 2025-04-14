@@ -2,6 +2,14 @@ import { Layout, Type, Leaf, TextSelect, Moon, Users, Code } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
+const platforms = [
+  { name: "Ownership", value1: "Team/shareholders", value2: "You" },
+  { name: "Governance", value1: "Centralized", value2: "Decentralized" },
+  { name: "Value creation", value1: "Centralized at the top", value2: "Shared at the bottom" },
+  { name: "Target audience", value1: "Privileged", value2: "Truly global" },
+  { name: "Signup/onboarding", value1: "Free for all", value2: "Referral only" },
+]
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#1a2634] to-[#3b4b8f]">
@@ -56,40 +64,28 @@ export default function Home() {
         </div>
 
         {/* Features Grid */}
-        <div className="mt-16 bg-[#1E293B] rounded-xl p-8">
-          <h3 className="text-2xl font-semibold text-[#4ADE80] mb-8">Other platforms</h3>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex items-center space-x-4 text-white">
-              <Layout className="w-6 h-6" />
-              <span>Governance</span>
-            </div>
-            <div className="flex items-center space-x-4 text-white">
-              <Type className="w-6 h-6" />
-              <span>Centralized</span>
-            </div>
-            <div className="flex items-center space-x-4 text-white">
-              <Leaf className="w-6 h-6" />
-              <span>Community</span>
-            </div>
-            <div className="flex items-center space-x-4 text-white">
-              <TextSelect className="w-6 h-6" />
-              <span>Decentralized</span>
-            </div>
-            <div className="flex items-center space-x-4 text-white">
-              <Moon className="w-6 h-6" />
-              <span>Innovation</span>
-            </div>
-            <div className="flex items-center space-x-4 text-white">
-              <Users className="w-6 h-6" />
-              <span>Collaboration</span>
-            </div>
-            <div className="flex items-center space-x-4 text-white">
-              <Code className="w-6 h-6" />
-              <span>Development</span>
-            </div>
-          </div>
-        </div>
+        <table className="w-full bg-black">
+          <thead>
+            <tr className="">
+              <th className="p-4 text-left font-medium text-gray-500"></th>
+              <th className="p-4 text-center  text-[25px]  font-medium text-[#95FFDF]">Other platforms</th>
+              <th className="p-4 text-left font-medium text-gray-500">
+                <div className="flex items-center gap-4">
+                <Image src="/societylogo.png" alt="society Logo" width={200} height={200} className="w-25 h-25 mr-4" /> 
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {platforms.map((platform, index) => (
+              <tr key={index} className={index < platforms.length - 1 ? "" : ""}>
+                <td className="p-6 font-blaak text-white text-[25px] font-normal text-right">{platform.name}</td>
+                <td className="p-4 border-l text-white text-[25px] font-small text-center">{platform.value1}</td>
+                <td className="p-4 border-l text-white text-[25px] font-normal text-center">{platform.value2}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
 
         {/* Call to Action Button */}
         <div>
@@ -244,12 +240,20 @@ export default function Home() {
           </div>
         </div>
         {/* End of partners section */}
-      </main>
+      
+
 
       <div className="gradient-bg min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
         <div className="text-center max-w-2xl mx-auto">
+            <div className="mt-32 text-#323232">
+              <h2 className="font-blaak text-[36px] font-weight:400 leading-[100%] tracking-[0%] text-center">
+                What can you do as a founder
+              </h2>
+            </div>
+        
+
           <div className="coin-container">
-            <Image src="/coin.png" alt="Coin" width={144} height={144} className="coin w-36 h-36 mx-auto" />
+            <Image src="/coin.png" alt="Coin" width={200} height={200} className="coin w-36 h-36 mx-auto" />
           </div>
 
           <h2 className="text-3xl font-bold mb-6 text-white tracking-tight flex items-center justify-center">
@@ -300,6 +304,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </main>
     </div>
+    
   )
 }

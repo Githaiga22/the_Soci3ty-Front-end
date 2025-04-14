@@ -4,6 +4,7 @@
 
 :root {
   font-family: Inter, system-ui, -apple-system, sans-serif;
+  --font-custom: "US Blaak Black", sans-serif; 
 }
 
 body {
@@ -60,7 +61,7 @@ body {
 
 /* Gradient background */
 .gradient-bg {
-  background: linear-gradient(180deg, #7fffd4 0%, #7fffd4 45%, #1e2340 45%, #1e2340 100%);
+  background: linear-gradient(178.666deg, #7fffd4 0%, #7fffd4 45%, #1e2340 45%, #1e2340 100%);
 }
 
 /* Title styling */
