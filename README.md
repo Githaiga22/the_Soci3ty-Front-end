@@ -1,10 +1,10 @@
 # The Soci3ty 
 
-The Soci3ty is a platform designed to empower visionary entrepreneurs by providing technological and community support to turn their ideas into impactful realities. This repository contains the frontend code for The Soci3ty, built with **React**, **Vite**, and **TailwindCSS**.
+The Soci3ty is a platform designed to empower visionary entrepreneurs by providing technological and community support to turn their ideas into impactful realities. This repository contains the frontend code for The Soci3ty, built with **NextJS**, and **TailwindCSS**.
 
 # The Soci3ty Frontend Test
 
-The Soci3ty test is a simple test exercise designed for our team to showcase their skills in building a landing page. The goal is to collaboratively develop a visually appealing and functional frontend using **React**, **Vite**, and **TailwindCSS**.
+The Soci3ty test is a simple test exercise designed for our team to showcase their skills in building a landing page. The goal is to collaboratively develop a visually appealing and functional frontend using **NextJs**, and **TailwindCSS**.
 
 ## Team Members
 
@@ -15,7 +15,7 @@ The Soci3ty test is a simple test exercise designed for our team to showcase the
 ## Tech Stack
 
 - **React**: For building the user interface.
-- **Vite**: For fast development and optimized builds.
+- **NextJs**: For fast development and optimized builds.
 - **TailwindCSS**: For styling with utility-first CSS.
 - **Lucide Icons**: For modern and customizable icons.
 
@@ -41,22 +41,29 @@ This exercise is intended to:
    ```bash
    git clone <repository-url>
    cd society-frontend
-2. Install dependencies:
-   ```bash
+
+   ```
+   Install dependencies
+   ```
    npm install
    ```
-### Development
-3. Start the development server
-   ```bash
-   npm run dev
-   ```
-### Preview
-4. To view the production build:
+2. Start development server
+    ```bash
+    npm run dev
     ```
-    npm run preview
+
+### Build for production
+1. Build the application
     ```
-### Acknowledgments
-1. React
-2. Vite
-3. TailwindCSS
-4. Lucide Icons
+    npm run build
+    ```
+2. Start production server
+    ```
+    npm run start
+    ```
+
+3. ### Lint your code
+    ```
+    npm run lint
+    ```
+
