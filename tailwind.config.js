@@ -59,6 +59,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        suisse: ["var(--font-suisse)"],
+        blaak: ["var(--font-blaak)"],
       },
     },
   },
