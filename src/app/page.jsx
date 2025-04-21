@@ -254,7 +254,7 @@ export default function Home() {
         
 
           <div className="coin-container mt-96">
-            <Image src="/coin.png" alt="Coin" width={200} height={200} className="coin w-36 h-36 mx-auto" />
+            <Image src="/coin.png" alt="Coin" width={400} height={400} className="coin w-50 h-50 mx-auto" />
           </div>
 
           <h2 className="text-3xl font-bold mb-6 text-white tracking-tight flex items-center justify-center">
@@ -298,7 +298,7 @@ export default function Home() {
           <div>
             <Link
               href="https://www.society.xyz/"
-              className="mt-16 inline-block bg-[#95FFDF] text-[#323232] px-[50px] py-[20px] rounded-[80px] text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
+              className="mt-16 mb-24 inline-block bg-[#95FFDF] text-[#323232] px-[50px] py-[20px] rounded-[80px] text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
             >
               JOIN THE COMMUNITY
             </Link>
