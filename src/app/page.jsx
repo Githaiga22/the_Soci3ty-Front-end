@@ -243,7 +243,8 @@ export default function Home() {
       
 
 
-      <div className="gradient-bg min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
+      </main>
+        <div className="gradient-bg w-full min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
         <div className="text-center max-w-2xl mx-auto">
             <div className="mt-32 text-#323232">
               <h2 className="font-blaak text-[36px] font-weight:400 leading-[100%] tracking-[0%] text-center">
@@ -252,7 +253,7 @@ export default function Home() {
             </div>
         
 
-          <div className="coin-container">
+          <div className="coin-container mt-96">
             <Image src="/coin.png" alt="Coin" width={200} height={200} className="coin w-36 h-36 mx-auto" />
           </div>
 
@@ -304,7 +305,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      </main>
     </div>
     
   )
