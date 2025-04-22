@@ -254,7 +254,10 @@ export default function Home() {
             </div>
         
 
-          <div className="coin-container mt-96">
+          <div className="bg-black/50 coin-container mt-96"   style={{
+    background: "radial-gradient(circle, #8C9EFF 0%, transparent 80%)"
+  }}>
+    
             <Image src="/coin.png" alt="Coin" width={400} height={400} className="coin w-50 h-50 mx-auto" />
           </div>
 
@@ -301,7 +304,7 @@ export default function Home() {
               href="https://www.society.xyz/"
               className="mt-16 mb-24 inline-block bg-[#95FFDF] text-[#323232] px-[50px] py-[20px] rounded-[80px] text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
             >
-              JOIN THE COMMUNITY
+              JOIN THE MOVEMENT
             </Link>
           </div>
         </div>
