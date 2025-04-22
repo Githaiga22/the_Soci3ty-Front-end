@@ -1,6 +1,7 @@
 import { Layout, Type, Leaf, TextSelect, Moon, Users, Code } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import './globals.css';
 
 const platforms = [
   { name: "Ownership", value1: "Team/shareholders", value2: "You" },
@@ -260,8 +261,8 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-6 text-white tracking-tight flex items-center justify-center">
             You own
             <span className="ml-2 inline-block relative">
-              <Image src="/societylogo.png" alt="Society Logo" width={100} height={100} className="w-25 h-25 mr-2" />
-              <span className="absolute -top-[2px] left-0 w-full border-t-2 border-white"></span>
+              <Image src="/societylogo.png" alt="Society Logo" width={100} height={100} className="w-35 h-20 mt-3" />
+              <span className="absolute -top-[4px] left-0 w-full"></span>
             </span>
           </h2>
 
