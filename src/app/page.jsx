@@ -23,13 +23,13 @@ export default function Home() {
 
       {/* Hero Section */}
       <main className="container mx-auto px-4 py-16 text-center">
-        <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
+        <h1 className="text-5xl font-[900] mb-8 font-blaak text-white" >
           Let's make your vision
           <div className="text-[#8C9EFF] mt-2">a reality</div>
         </h1>
 
         <div className="max-w-2xl mx-auto mt-8 text-gray-300">
-          <p className="text-xl mb-2">You are a visionary entrepreneur and</p>
+          <p className="text-xl mb-2 ">You are a visionary entrepreneur and</p>
           <p className="text-xl font-semibold mb-6">you want to have impact.</p>
 
           <p className="text-lg mb-4">The Soci3ty is the technological and community layer to make it happen.</p>
@@ -52,10 +52,7 @@ export default function Home() {
 
         {/* Platform Section */}
         <div className="mt-32 text-white">
-          <h2 className="text-4xl font-bold mb-8">
-            A platform that supports
-            <div className="mt-2">visionaries</div>
-          </h2>
+        <h2 className="text-4xl font-[900] mb-8 font-blaak">A platform built for visionaries</h2>
 
           <p className="max-w-2xl mx-auto text-lg text-gray-300">
             The Soci3ty is made up of pioneers who are at the forefront of change and who want to
@@ -64,11 +61,11 @@ export default function Home() {
         </div>
 
         {/* Features Grid */}
-        <table className="w-full bg-black">
+        <table className="w-full bg-black rounded-xl overflow-hidden">
           <thead>
             <tr className="">
               <th className="p-4 text-left font-medium text-gray-500"></th>
-              <th className="p-4 text-center  text-[25px]  font-medium text-[#95FFDF]">Other platforms</th>
+              <th className="p-4 text-center text-[25px] font-[900] font-blaak text-[#95FFDF]">Other platforms</th>
               <th className="p-4 text-left font-medium text-gray-500">
                 <div className="flex items-center gap-4">
                 <Image src="/societylogo.png" alt="society Logo" width={200} height={200} className="w-25 h-25 mr-4" /> 
@@ -79,7 +76,7 @@ export default function Home() {
           <tbody>
             {platforms.map((platform, index) => (
               <tr key={index} className={index < platforms.length - 1 ? "" : ""}>
-                <td className="p-6 font-blaak text-white text-[25px] font-normal text-right">{platform.name}</td>
+                <td className="p-6 font-blaak text-white text-[25px] font-[900] text-right">{platform.name}</td>
                 <td className="p-4 border-l text-white text-[25px] font-small text-center">{platform.value1}</td>
                 <td className="p-4 border-l text-white text-[25px] font-normal text-center">{platform.value2}</td>
               </tr>
@@ -110,7 +107,7 @@ export default function Home() {
           </div>
 
           <div className="mt-32 text-white">
-            <h2 className="text-4xl font-bold mb-8">A platform built for visionaries</h2>
+            <h2 className="text-4xl font-[900] mb-8 font-blaak">A platform built for visionaries</h2>
           </div>
 
           {/* tables */}
@@ -146,7 +143,7 @@ export default function Home() {
         {/* Partners */}
         <div>
           <div className="mt-32 text-white">
-            <h2 className="text-4xl font-bold mb-8">They joined us</h2>
+            <h2 className="text-4xl font-[900] font font-blaak mb-8">They joined us</h2>
           </div>
           <div className="mt-20 flex flex-wrap justify-center gap-6 px-4">
             <div className="flex flex-col items-center">
@@ -157,7 +154,7 @@ export default function Home() {
                 height={256}
                 className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
               />
-              <p className="mt-2 text-[32px] text-white leading-[100%] text-center font-normal custom-white">
+              <p className="mt-2 text-[32px] text-white leading-[100%] text-center font-blaak font-[900]">
                 Emmanuel Aldeguer
               </p>
               <div className="flex justify-center items-center mt-4 w-[191px] h-[54px]">
@@ -178,7 +175,7 @@ export default function Home() {
                 height={256}
                 className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
               />
-              <p className="mt-2 text-[32px] text-white leading-[100%] text-center font-normal custom-white">
+              <p className="mt-2 text-[32px] text-white leading-[100%] text-center font-blaak font-[900]">
                 Etienne de Sainte Marie
               </p>
               <div className="flex justify-center items-center mt-4 w-[241px] h-[24px]">
@@ -202,7 +199,7 @@ export default function Home() {
                 height={256}
                 className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
               />
-              <p className="mt-2 text-[32px] text-white leading-[100%] text-center font-normal custom-white">
+              <p className="mt-2 text-[32px] text-white leading-[100%] text-center font-blaak font-[900]">
                 Emilie-Alice Fabrizi
               </p>
               <div className="flex justify-center items-center mt-4 w-[175px] h-[93px]">
@@ -224,7 +221,7 @@ export default function Home() {
                 height={256}
                 className="w-[256px] h-[256px] border-[5px] border-[#8099EC] rounded-full object-cover"
               />
-              <p className="mt-2 text-[32px] text-white leading-[100%] text-center font-normal custom-white">
+              <p className="mt-2 text-[32px] text-white leading-[100%] text-center font-blaak font-[900]">
                 Nico Gallardo
               </p>
               <div className="flex justify-center items-center mt-8 w-[180px] h-[49px]">
