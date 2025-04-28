@@ -266,7 +266,7 @@ export default function Home() {
             </span>
           </h2>
 
-          <p className="text-white/80 text-sm max-w-md mx-auto mb-20 leading-relaxed font-Neue Montreal">
+          <p className="text-white/80 text-lg max-w-md mx-auto mb-20 leading-relaxed font-Neue Montreal">
             Unlike traditional companies, The Soci3ty will only emit shares once that can be acquired during an initial
             sale or by participating in The Soci3ty economic activity.
           </p>
