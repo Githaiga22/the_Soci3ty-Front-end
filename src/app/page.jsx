@@ -1,6 +1,7 @@
 import { Layout, Type, Leaf, TextSelect, Moon, Users, Code } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import './globals.css';
 
 const platforms = [
   { name: "Ownership", value1: "Team/shareholders", value2: "You" },
@@ -240,7 +241,8 @@ export default function Home() {
       
 
 
-      <div className="gradient-bg min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
+      </main>
+        <div className="gradient-bg w-full min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
         <div className="text-center max-w-2xl mx-auto">
             <div className="mt-32 text-#323232">
               <h2 className="font-blaak text-[36px] font-weight:400 leading-[100%] tracking-[0%] text-center">
@@ -249,15 +251,18 @@ export default function Home() {
             </div>
         
 
-          <div className="coin-container">
-            <Image src="/coin.png" alt="Coin" width={200} height={200} className="coin w-36 h-36 mx-auto" />
+          <div className="bg-black/50 coin-container mt-96"   style={{
+    background: "radial-gradient(circle, #8C9EFF 0%, transparent 80%)"
+  }}>
+    
+            <Image src="/coin.png" alt="Coin" width={400} height={400} className="coin w-50 h-50 mx-auto" />
           </div>
 
           <h2 className="text-3xl font-bold mb-6 text-white tracking-tight flex items-center justify-center">
             You own
             <span className="ml-2 inline-block relative">
-              <Image src="/societylogo.png" alt="Society Logo" width={100} height={100} className="w-25 h-25 mr-2" />
-              <span className="absolute -top-[2px] left-0 w-full border-t-2 border-white"></span>
+              <Image src="/societylogo.png" alt="Society Logo" width={100} height={100} className="w-35 h-20 mt-3" />
+              <span className="absolute -top-[4px] left-0 w-full"></span>
             </span>
           </h2>
 
@@ -294,14 +299,13 @@ export default function Home() {
           <div>
             <Link
               href="https://www.society.xyz/"
-              className="mt-16 inline-block bg-[#95FFDF] text-[#323232] px-[50px] py-[20px] rounded-[80px] text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
+              className="mt-16 mb-24 inline-block bg-[#95FFDF] text-[#323232] px-[50px] py-[20px] rounded-[80px] text-lg font-semibold transition duration-300 hover:bg-[#7A8BFF] gap-[12px]"
             >
-              JOIN THE COMMUNITY
+              JOIN THE MOVEMENT
             </Link>
           </div>
         </div>
       </div>
-      </main>
     </div>
     
   )

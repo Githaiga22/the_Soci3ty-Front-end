@@ -61,8 +61,10 @@ body {
 
 /* Gradient background */
 .gradient-bg {
-  background: linear-gradient(178.666deg, #7fffd4 0%, #7fffd4 45%, #1e2340 45%, #1e2340 100%);
+  background: linear-gradient(175deg, #7fffd4 0, #7fffd4 40%, #1e2340 40%, #1e2340 100%);
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
 }
+
 
 /* Title styling */
 .title {
