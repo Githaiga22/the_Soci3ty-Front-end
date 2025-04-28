@@ -273,12 +273,12 @@ export default function Home() {
 
           <div className="space-y-12 mb-20">
             <div>
-              <h3 className="section-title text-[#8C9EFF] font-bold text-lg">Ownership</h3>
+              <h3 className="section-title font-blaak  text-[#8C9EFF] font-bold text-lg">Ownership</h3>
               <p className="section-text font-bold text-lg text-[#FFFFFF]">You own The Soci3ty and the assets</p>
             </div>
 
             <div>
-              <h3 className="section-title text-[#8C9EFF] font-bold text-lg">Governance</h3>
+              <h3 className="section-title font-blaak  text-[#8C9EFF] font-bold text-lg">Governance</h3>
               <p className="section-text font-bold text-lg text-[#FFFFFF]">
                 Every month, you gain more governance power as the
                 <br />
@@ -287,7 +287,7 @@ export default function Home() {
             </div>
 
             <div>
-              <h3 className="section-title text-[#8C9EFF] font-bold text-lg">Utility</h3>
+              <h3 className="section-title font-blaak  text-[#8C9EFF] font-bold text-lg">Utility</h3>
               <p className="section-text font-bold text-lg text-[#FFFFFF]">
                 You can also use Arrow to perform important actions
                 <br />
