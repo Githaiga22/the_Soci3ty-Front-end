@@ -245,7 +245,7 @@ export default function Home() {
         <div className="gradient-bg w-full min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
         <div className="text-center max-w-2xl mx-auto">
             <div className="mt-32 text-#323232">
-              <h2 className="font-blaak text-[36px] font-weight:400 leading-[100%] tracking-[0%] text-center">
+              <h2 className="font-blaak text-[36px] font-weight:400 leading-[100%] tracking-[0%] text-center font-[900]">
                 What can you do as a founder
               </h2>
             </div>
