@@ -59,7 +59,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${sora.variable} font-sans`}>{children}</body>
+      <body className={`${inter.variable} ${sora.variable} ${blaak.variable} ${suisseIntlFont.variable} font-sans`}>
+        {children}
+      </body>
     </html>
   )
 }
