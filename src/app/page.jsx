@@ -258,10 +258,10 @@ export default function Home() {
             <Image src="/coin.png" alt="Coin" width={400} height={400} className="coin w-50 h-50 mx-auto" />
           </div>
 
-          <h2 className="text-3xl font-bold mb-6 text-white tracking-tight flex items-center justify-center">
+          <h2 className="text-4xl font-blaak font-bold mb-6 text-white tracking-tight flex items-center justify-center">
             You own
             <span className="ml-2 inline-block relative">
-              <Image src="/societylogo.png" alt="Society Logo" width={100} height={100} className="w-35 h-20 mt-3" />
+              <Image src="/societylogo.png" alt="Society Logo" width={150} height={150} className="w-35 h-20 mt-3" />
               <span className="absolute -top-[4px] left-0 w-full"></span>
             </span>
           </h2>
