@@ -30,11 +30,11 @@ export default function Home() {
         </h1>
 
         <div className="max-w-2xl mx-auto mt-8 text-gray-300">
-          <p className="text-xl mb-2 ">You are a visionary entrepreneur and</p>
-          <p className="text-xl font-semibold mb-6">you want to have impact.</p>
+          <p className="text-xl mb-2 font-neue-montreal">You are a visionary entrepreneur and</p>
+          <p className="text-xl font-semibold mb-6 font-neue-montreal">you want to have impact.</p>
 
-          <p className="text-lg mb-4">The Soci3ty is the technological and community layer to make it happen.</p>
-          <p className="text-lg italic">Find mentors, early adopters and financial resources.</p>
+          <p className="text-lg mb-4 font-neue-montreal">The Soci3ty is the technological and community layer to make it happen.</p>
+          <p className="text-lg italic font-neue-montreal">Find mentors, early adopters and financial resources.</p>
         </div>
 
         {/* Video Section */}
@@ -266,7 +266,7 @@ export default function Home() {
             </span>
           </h2>
 
-          <p className="text-white/80 text-lg max-w-md mx-auto mb-20 leading-relaxed font-Neue Montreal">
+          <p className="text-white/80 text-lg max-w-md mx-auto mb-20 leading-relaxed font-neue-montreal">
             Unlike traditional companies, The Soci3ty will only emit shares once that can be acquired during an initial
             sale or by participating in The Soci3ty economic activity.
           </p>
