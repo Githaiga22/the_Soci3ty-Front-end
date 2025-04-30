@@ -61,7 +61,7 @@ module.exports = {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
         suisse: ["var(--font-suisse)"],
         blaak: ["var(--font-blaak)"],
-        neue: ['"Neue Montreal"', 'sans-serif'],
+        'neue-montreal': ['var(--font-neue-montreal)']
       },
     },
   },
