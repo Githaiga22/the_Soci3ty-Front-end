@@ -53,9 +53,9 @@ export default function Home() {
 
         {/* Platform Section */}
         <div className="mt-32 text-white">
-        <h2 className="text-4xl font-[900] mb-8 font-blaak">A platform built for visionaries</h2>
+        <h2 className="text-4xl font-[900] mb-8 font-blaak">A platform that supports visionaries</h2>
 
-          <p className="max-w-2xl mx-auto text-lg text-gray-300">
+          <p className="max-w-2xl mx-auto text-lg text-gray-300 font-neue-montreal">
             The Soci3ty is made up of pioneers who are at the forefront of change and who want to
             <span className="font-semibold"> come together and support each other.</span>
           </p>
