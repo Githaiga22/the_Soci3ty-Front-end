@@ -62,7 +62,7 @@ export default function Home() {
         </div>
 
         {/* Features Grid */}
-        <table className="w-full bg-black rounded-xl overflow-hidden">
+        <table className="w-full bg-[#323232] rounded-xl overflow-hidden">
           <thead>
             <tr className="">
               <th className="p-4 text-left font-medium text-gray-500"></th>
@@ -76,10 +76,10 @@ export default function Home() {
           </thead>
           <tbody>
             {platforms.map((platform, index) => (
-              <tr key={index} className={index < platforms.length - 1 ? "" : ""}>
-                <td className="p-6 font-blaak text-white text-[25px] font-[900] text-right">{platform.name}</td>
-                <td className="p-4 border-l text-white text-[25px] font-small text-center">{platform.value1}</td>
-                <td className="p-4 border-l text-white text-[25px] font-normal text-center">{platform.value2}</td>
+              <tr key={index} className={`${index === platforms.length - 1 ? "mb-4" : "mb-8"}`}>
+                <td className="pr-6 pl-2 py-2 font-blaak text-white text-[25px] font-[900] text-right hidden md:table-cell">{platform.name}</td>
+                <td className="px-4 py-2 border-l-[6px] border-l-[#FFFFFF0D] text-white text-[24px] font-neue-montreal text-center hidden md:table-cell -mt-2 -mb-2">{platform.value1}</td>
+                <td className="px-4 py-2 border-l-[6px] border-l-[#FFFFFF0D] text-white text-[24px] font-neue-montreal font-bold text-center hidden md:table-cell -mt-2 -mb-2">{platform.value2}</td>
               </tr>
             ))}
           </tbody>
