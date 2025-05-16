@@ -53,7 +53,7 @@ export default function Home() {
 
         {/* Platform Section */}
         <div className="mt-32 text-white">
-        <h2 className="text-4xl font-[900] mb-8 font-blaak">A platform that supports visionaries</h2>
+          <h2 className="text-4xl font-[900] mb-8 font-blaak">A platform that supports visionaries</h2>
 
           <p className="max-w-2xl mx-auto text-lg text-gray-300 font-neue-montreal">
             The Soci3ty is made up of pioneers who are at the forefront of change and who want to
@@ -69,7 +69,7 @@ export default function Home() {
               <th className="p-4 text-center text-[25px] font-[900] font-blaak text-[#95FFDF]">Other platforms</th>
               <th className="p-4 text-left font-medium text-gray-500">
                 <div className="flex items-center gap-4">
-                <Image src="/societylogo.png" alt="society Logo" width={200} height={200} className="w-25 h-25 mr-4" /> 
+                  <Image src="/societylogo.png" alt="society Logo" width={200} height={200} className="w-25 h-25 mr-4" />
                 </div>
               </th>
             </tr>
@@ -238,25 +238,41 @@ export default function Home() {
           </div>
         </div>
         {/* End of partners section */}
-      
+
 
 
       </main>
-        <div className="gradient-bg w-full min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
+      <div className="gradient-bg w-full min-h-screen flex flex-col items-center justify-center px-4 relative overflow-hidden">
         <div className="text-center max-w-2xl mx-auto">
-            <div className="mt-32 text-#323232">
-              <h2 className="font-blaak text-[36px] font-weight:400 leading-[100%] tracking-[0%] text-center font-[900]">
-                What can you do as a founder
-              </h2>
-            </div>
-        
-
-          <div className="bg-black/50 coin-container mt-96"   style={{
-    background: "radial-gradient(circle, #8C9EFF 0%, transparent 80%)"
-  }}>
-    
-            <Image src="/coin.png" alt="Coin" width={400} height={400} className="coin w-50 h-50 mx-auto" />
+          <div className="mt-32 text-#323232">
+            <h2 className="font-blaak text-[36px] font-weight:400 leading-[100%] tracking-[0%] text-center font-[900]">
+              What can you do as a founder
+            </h2>
           </div>
+
+          <div className="relative mt-96 coin-container h-[400px] w-full">
+            {/* Bottom radial glow only */}
+            <div
+              className="absolute inset-0 z-0 pointer-events-none"
+              style={{
+                background: "radial-gradient(circle at bottom, #8C9EFF 0%, transparent 70%)",
+                height: '100%',
+                width: '100%',
+                opacity: 0.6
+              }}
+            />
+
+            {/* Coin image on top */}
+            <Image
+              src="/coin.png"
+              alt="Coin"
+              width={400}
+              height={400}
+              className="relative z-10 w-50 h-50 mx-auto coin"
+            />
+          </div>
+
+
 
           <h2 className="text-4xl font-blaak font-bold mb-6 text-white tracking-tight flex items-center justify-center">
             You own
@@ -307,6 +323,6 @@ export default function Home() {
         </div>
       </div>
     </div>
-    
+
   )
 }
